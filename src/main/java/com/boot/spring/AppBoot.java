@@ -20,7 +20,7 @@ public class AppBoot {
 	}
 
 	@Bean
-	public ResourceConfig jerseyConfig() {
+	ResourceConfig jerseyConfig() {
 		return new ResourceConfig()
 			.register(PersonsImpl.class);
 	}
