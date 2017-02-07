@@ -13,10 +13,10 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 @SpringBootApplication
 @EnableAutoConfiguration
 @EnableMongoRepositories
-public class Application {
+public class AppBoot {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(AppBoot.class, args);
 	}
 
 	@Bean
